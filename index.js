@@ -31,7 +31,7 @@ const image =
  * You can uncomment a line by removing the // at the start
  */
 
-const fullNameString = `My name is ${name}`;
+const fullNameString = `My name is ${fullName}`;
 const yearOfBirthString = `I am ${36}, and make sure you calculate your age from your year of birth`;
 const hobbyString = `My hobby is ${hobby}`;
 
