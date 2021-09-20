@@ -11,10 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
-
+const fullName = 'Abdullah Alrayes';
+const yearOfBirth = '1985';
+const hobby = 'Motorcycle';
+const funFact = 'I love Django :) ';
+const image = '';
 
 /**
  * Part 2: String Interpolation
@@ -24,7 +25,7 @@
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
@@ -32,9 +33,6 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
 
 /**
  * Part 3: Re-assignment
