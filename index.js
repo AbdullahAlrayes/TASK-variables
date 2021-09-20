@@ -31,9 +31,9 @@ const image =
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${name}`;
+const yearOfBirthString = `I am ${36}, and make sure you calculate your age from your year of birth`;
+const hobbyString = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -44,14 +44,16 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  return (stars += 1);
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  return (stars -= 1);
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  return (stars += 2);
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  return (stars -= 2);
 }
