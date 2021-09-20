@@ -15,7 +15,8 @@ const fullName = 'Abdullah Alrayes';
 const yearOfBirth = '1985';
 const hobby = 'Motorcycle';
 const funFact = 'I love Django :) ';
-const image = '';
+const image =
+  'https://theteamwarehouse.nyc3.digitaloceanspaces.com/WareHouse/WareHouse/Screen%20Shot%202021-09-16%20at%204.59.08%20PM.png';
 
 /**
  * Part 2: String Interpolation
